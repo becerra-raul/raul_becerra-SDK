@@ -24,10 +24,22 @@ const movies = await lotrApiService.movie.getMovies()
 console.log(movies);
 ```
 
-## What data can be obtained using this library?
+## What data can be obtained using this SDK?
+
+> List of all the movies
+
+- await lotrApiService.movie.getMovies()
+
+> List of specific movie quotes
+
+- await lotrApiService.movie.getMovieQuotes()
+
+> Specific movie details
+
+- await lotrApiService.movie.getMovie()
 
 ## Keywords
 
-Open APIs
-SDK
-LOTR
+- Open APIs
+- SDK
+- LOTR
